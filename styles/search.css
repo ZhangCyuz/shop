@@ -1,0 +1,32 @@
+.section-second {
+	width: 1240px;
+	/*height: 680px;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+.search-body {
+  width: 1240px;
+  height: 100%;
+  margin: 0 auto;
+  background: red;
+}
+.search-body>div {
+  float: left;
+  position: relative;
+  margin: 10px 5px;
+}
+.section-second .search-body>div>a>img {
+  width: 300px;
+  height: 320px;
+}
+.section-second .search-body>div>a>p {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 280px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #f45;
+  overflow: hidden;
+}

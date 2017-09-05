@@ -1,0 +1,59 @@
+.cart {
+  width: 1240px;
+  margin: 10px auto;
+}
+table {
+  width: 1240px;
+}
+.first-tr {
+  line-height: 30px;
+  background: red;
+  font-size: 16px;
+}
+.cart tr td {
+  padding: 0 40px;
+  text-align: center;
+}
+.cart tr td img {
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+}
+.goods_number {
+  width: 20px;
+  height: 15px;
+}
+.del {
+  cursor: pointer;
+}
+.money {
+  /*float: right;*/
+  width: 1240px;
+  height: 100px;
+  position: relative;
+}
+.goo {
+  /*display: inline-block;*/
+  /*float: left;*/
+  width: 1240px;
+  height: 120px;
+  margin-top: 20px;
+}
+.xiao {
+  font-size: 16px;
+  font-weight: bold;
+  float: right;
+  margin: 10px 60px;
+}
+#submit-order {
+  width: 200px;
+  line-height: 40px;
+  text-align: center;
+  background: #ee2222;
+  color: #fff;
+  cursor: pointer;
+  float: right;
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+}

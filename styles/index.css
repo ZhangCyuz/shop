@@ -1,0 +1,42 @@
+.section-second {
+	width: 1240px;
+	height: 650px;
+	margin: 0 auto;
+	overflow: hidden;
+	border-top: 2px solid red;
+}
+.section-second ul .oA {
+	display: inline-block;
+	width: 228px;
+	height: 238px;
+  margin: 35px 10px;
+}
+.section-second ul li {
+	float: left;
+  width: 228px;
+	height: 238px;
+	position: relative;
+}
+.section-second ul li img {
+  width: 228px;
+	height: 238px;
+}
+.section-second ul li p {
+	font-size: 14px;
+	color: gray;
+  text-align: center;
+	cursor: pointer;
+}
+.section-second ul li>a {
+	font-size: 12px;
+	color: red;
+	position: absolute;
+	bottom: 10px;
+	right: 95px;
+}
+.section-second ul li p:hover {
+	color: red;
+}
+.section-second h1 {
+	font-size: 20px;
+}
